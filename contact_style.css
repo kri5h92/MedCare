@@ -1,0 +1,205 @@
+/* form button{
+    padding: 15px;
+    background-color: #060c21;
+    color: #ff0057;
+    font-size: 25px;
+    border: 0;
+    outline: none;
+    width: 200px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background-color: #85c0bd;
+    font-size: 16px;
+    
+} */
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image: url('images/16221731186022243-FeatBlueWhiteBackground.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* navbar starts here */
+.navbar{
+	position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* border-bottom: 2px solid red; */
+    /* background-color: #393E46; */
+    /* box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1); */
+    background-color: #222831;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	animation: slide-down 0.5s linear 1;
+
+
+}
+@keyframes slide-down {
+	from{
+		top: -7%;
+	}
+	to{
+		top: 0%;
+	}
+}
+.logo{
+    position: relative;
+    left: 2%;
+}
+.logo table td{
+    padding-right: 20px;
+    font-size: xx-large;
+    color: white;
+}
+.links{
+    display: flex;
+    position: relative;
+    /* align-content: flex-end; */
+    align-items: flex-end;
+    justify-content: flex-end;
+    left: 27%;
+    flex-wrap: wrap;
+
+}
+.links li{
+    display: flex;
+    flex-direction: row;
+    padding: 22px 22px;
+    justify-content: end;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+.links li a{
+    /* color: #00ADB5; */
+    color: #EEEEEE;
+    color: #82DBD8;
+    text-decoration: none;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.4s;
+}
+
+.links li a:hover{
+    font-size: 30px;
+    color: #EEEEEE;
+    /* color: #00ADB5; */
+
+}
+/* navbar ends here */
+form input, form textarea{
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background-color: cadetblue;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+
+}
+
+form input:focus,form input:valid{
+    border-color: black;
+}
+
+form button{
+    padding: 15px;
+    background-color: #bbbfce;
+    color: #060c21;
+    font-size: 25px;
+    border: 0;
+    outline: none;
+    width: 200px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+}
+ form button:hover{
+    background-color: black;
+    color: white
+ }
+form h2{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+form{
+    position: relative;
+    background-color: rgba(8, 225, 225, 0.688);
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 120%;
+    max-width: 800;
+    border-radius: 10px;
+    top: 1%;
+    height: 600px;
+
+}
+.send_msg { 
+    /* position: absolute; */
+    padding: 2px;
+    margin: 2px;
+    position: relative;
+    left: -10%;
+}
+.container_contact{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+}
+
+#msg{
+    position: relative;
+    left: -47%;
+    /* border-left: 24px solid red; */
+    transform: rotate(270deg);
+    top: -16%;
+    font-size: 100px;
+    background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 500ms ease;
+}
+#msg:hover{
+    background-position: 0 100%;
+}
+
+
+/* for main container */
+.container{
+    border: 2px solid black;
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    flex-direction: row;
+}
