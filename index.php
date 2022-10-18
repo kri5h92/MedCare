@@ -21,7 +21,7 @@
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT US</a></li>
                 <li><a href="services.html">OUR SERVICES</a></li>
-                <li><a href="amb.html">AMBULANCE SERVICE</a></li>
+                <li><a href="map2.html">NEAREST HOSPITAL</a></li>
                 <li><a href="contact.html">CONTACT US</a></li>
             </ul>
     </div>
@@ -39,19 +39,19 @@
                 <!-- <h2>sign in and sign up here</h2> -->
                 <!-- newly added -->
                 <div class="form-container sign-up-container">
-                    <form action="#">
+                    <form action="register.php" name="register" method="post">
                         <h1>Create Account</h1>
-                        <input type="text" placeholder="Name" />
-                        <input type="email" placeholder="Email" />
-                        <input type="password" placeholder="Password" />
+                        <input type="text" placeholder="Username" required name="name"/>
+                        <input type="email" placeholder="Email" required name="email"/>
+                        <input type="password" placeholder="Password" name="password" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$"/>
                         <button>Sign Up</button>
                     </form>
                 </div>
                 <div class="form-container sign-in-container">
-                    <form action="#">
+                    <form action="validation.php" name="login" method="post">
                         <h1>Sign in</h1>
-                        <input type="email" placeholder="Email" />
-                        <input type="password" placeholder="Password" />
+                        <input type="email" placeholder="Email" required name="email"/>
+                        <input type="password" placeholder="Password" name="password" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$"/>
                         <a href="#" id="fp">Forgot your password?</a>
                         <button>Sign In</button>
                     </form>
@@ -99,6 +99,7 @@
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
         </div>
     </div>
+</div>
 </body>
 <script src="script.js"></script>
 </html>
