@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="patient_style.css">
+<title>Document</title>
+
+</head>
+<body>
+<nav>
+<div class="left-links">
+   
+  
+    <body>
+    
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="patient.php">Dashboard</a>
+      <a href="#">Book appointment</a>
+      <a href="appHistory.php">Appointment History</a>
+      <a href="#">Medical History</a>
+    </div> 
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>    
+</div>
+<div class="right-links">
+   <a class="hms">Hospital Management System</a>
+
+<a class="links" href="patient.php">Back</a>
+</div>
+</nav>
+
+<div class="app-hist" id="app-hist">
+    <div class="content">
+        <div class="med-hist">
+            <div class="content">
+              <p>User | Medical History</p>
+              <table>
+                <tr>
+                  <th>#</th>
+                  <th>Patient Name</th>
+                  <th>Patient Contact Number</th>
+                  <th>Patient Gender</th>
+                  <th>Creation Date</th>
+                  <th>Updation Date</th>
+                  <th>Current Status</th>
+                  <th>Action</th>
+                </tr>
+                
+              </table>
+            </div>
+            
+        </div>
+</div>
+
+
+<script src="index_patient.js"></script>
+</body>
+</html>
