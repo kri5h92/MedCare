@@ -5,7 +5,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    background-image: url('images/16221731186022243-FeatBlueWhiteBackground.webp');
+    /* background-image: url('images/16221731186022243-FeatBlueWhiteBackground.webp'); */
     background-repeat: no-repeat;
     background-size: cover;
 }
