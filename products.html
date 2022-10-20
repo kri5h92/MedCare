@@ -1,137 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
-<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="ecomm_style.css">
-    <title>Products</title>
-</head>
-<body>
-    <section class="container1">
-    <div class="navbar1">
-        <div class="logo">
-            <img src="images1/icon.png" alt="logo" width="60px">
+<html>
+    <head>
+        <title>MedCare | Store</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles4.css" />
+        <script src="store.js" async></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo">
+                <table>
+                    <tr>
+                        <td><img src="images/icons8-telemedicine-50.png" alt="Logo"></td>
+                        <td>MedCare</td>
+                    </tr>
+                </table>
+            </div>
+                <ul class="links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="services.html">OUR SERVICES</a></li>
+                    <li><a href="amb.html">AMBULANCE SERVICE</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
         </div>
-        <div class="links">
-            
-                 <a href="./ecommerce.html">Home</a>     
-                 <a href="./products.html">Products</a>
-                 <a href="cart.html">Cart</a>        
-          
-        </div>
-    </div>
-</section>
-
-
-<!-- featured products -->
-<div class="products">
-    <h2 class="title">Products</h2>
-    <div class="row">
-        <div class="col-prod">
-            <a href="productdeets.html"><img src="./images1/zincovit.jpg" alt=""></a>
-            <h4>Zincovit tablet</h4>
-            <p>Rs.105</p>
-
-        </div>
-         <div class="col-prod">
-          <a href="p2deets.html"><img src="./images1/volini.jpg" alt=""> </a>
-            <h4>Volini spray</h4>
-            <p>Rs.208</p>
-            
-
-        </div>
-         <div class="col-prod">
-            <img src="./images1/vicks.jpg" alt="">
-            <h4>Vicks</h4>
-            <p>Rs.60</p>
-            
-
-        </div>
-         <div class="col-prod">
-            <img  src="./images1/inhaler.jpg" alt="">
-            <h4>Inhaler</h4>
-            <p>Rs.65</p>
-            
-
-        </div>
-    </div>
-    <br><br>
-        <div class="row">
-        <div class="col-prod">
-            <img src="./images1/moov.jpg" alt="">
-            <h4>Moov</h4>
-            <p>Rs.75</p>
-
-        </div>
-         <div class="col-prod">
-            <img src="./images1/tablet.jpg" alt="">
-            <h4>Obenyl</h4>
-            <p>450</p>
-            
-
-        </div>
-         <div class="col-prod">
-            <img src="./images1/bp monitor.jpg" alt="">
-            <h4>Bp machine</h4>
-            <p>Rs.1200</p>
-            
-
-        </div>
-         <div class="col-prod">
-            <img  src="./images1/injection.jpg" alt="">
-            <h4>Injection</h4>
-            <p>Rs.10</p>
-          
-
-        </div>
-    </div> <br><br>
-        <div class="row">
-        <div class="col-prod">
-            <img src="./images1/steth.jpg" alt="">
-            <h4>Stethoscope</h4>
-            <p>500</p>
-            
-
-        </div>
-         <div class="col-prod">
-            <img src="./images1/thermometer.jpg" alt="">
-            <h4>Thermometer</h4>
-            <p>Rs.60</p>
-           
-
-        </div>
-         <div class="col-prod">
-            <img src="./images1/oximeter.jpg" alt="">
-            <h4>Pulse Oximeter</h4>
-            <p>Rs.350</p>
-           
-        </div>
-         <div class="col-prod">
-            <img  src="./images1/vap.jpg" alt="">
-            <h4>Vaporizer</h4>
-            <p>Rs.800</p>
-           
-
-        </div>
-    </div> <br><br>
-   
-    </div>
-    <br><br>
-    <div class="buttons">
-        <a href="products.html">1</a>
-        <a href="products.html">2</a>
-        <a href="products.html">3</a>
-        <a href="products.html">4</a>
-        <a href="">&#8594</a>
-    </div>
-</div>
-<br>
-
-
-</body>
+        
+        <section class="container content-section">
+            <h2 class="section-header">Products</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Paracetamol </span>
+                    <img class="shop-item-image" src="images/Para.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Patanjali Alovera Gel</span>
+                    <img class="shop-item-image" src="images/Alogel.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">26.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Patanjali Kesh Kanti</span>
+                    <img class="shop-item-image" src="images/Kesh.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">36.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">Rs 0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+    </body>
 </html>
