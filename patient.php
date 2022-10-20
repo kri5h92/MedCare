@@ -1,5 +1,4 @@
 <?php
-// header('location:index.php');
 session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +19,7 @@ session_start(); ?>
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="#">Dashboard</a>
-      <a href="#">Book appointment</a>
+      <a href="bookappt.php">Book appointment</a>
       <a href="appHistory.php">Appointment History</a>
       <a href="medical-history.html">Medical History</a>
     </div> 
@@ -29,7 +28,7 @@ session_start(); ?>
 <div class="right-links">
    <a class="hms">Hospital Management System</a>
 
-<a class="links" href="patient.php">Back</a>
+<a class="links" href="index.php">Back</a>
 <table>
             <tr>
                 <td><img id="user" src="images/doctor.png" alt=""></td>
@@ -61,7 +60,7 @@ session_start(); ?>
         <div class="row">
             <div class="column" >
               <h2>Book my Appointment</h2>
-             <a href="#">Book Appointment</a>
+             <a href="bookappt.php">Book Appointment</a>
             </div>
             <div class="column" >
               <h2>My Appointments</h2>

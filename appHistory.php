@@ -20,7 +20,7 @@ session_start(); ?>
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="patient.html">Dashboard</a>
-      <a href="#">Book appointment</a>
+      <a href="Bookappt.html">Book appointment</a>
       <a href="appHistory.php">Appointment History</a>
       <a href="#">Medical History</a>
     </div> 
@@ -41,6 +41,7 @@ session_start(); ?>
           <th>Appointment Date / Time</th>
           <th>Appointment Creation Date</th>
           <th>Current Status</th>
+          <th>Action</th>
   </tr>
  <?php
  $con = mysqli_connect('localhost', 'root', '');
@@ -69,8 +70,8 @@ session_start(); ?>
      <td>" .
          $row['status'] .
          "</td>
-     
-     </tr>";
+    <td><a href='#'>START</a></td>
+    </tr>";
  }
  ?>
 </table>
