@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="doc_style.css">
+<title>Document</title>
+
+</head>
+<body>
+<nav>
+<div class="left-links">
+   
+  
+    <body>
+    <style>
+    form{
+        margin-left:350px;
+       
+    } 
+
+    ::content{
+        margin-left:350px;
+    }
+    </style>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="doctor.html">Dashboard</a>
+        <a href="doc_appointmenthistory.html">Appointment History</a>
+        <a href="doc_add.html">Add Patients</a>
+        <a href="doc_manage.html">Manage Patients</a>
+        <a href="doc_search.html">Search</a>
+      </div> 
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>    
+</div>
+<div class="right-links">
+   <a class="hms">Hospital Management System</a>
+
+<a class="links" href="#">Back</a>
+</div>
+</nav>
+<div class="dashboard">
+    <div class="content">
+        <h1>Add Patient</h1>
+    </div>
+    <div class="addPatient">
+
+        
+  <form name="registration" class="registartion-form" onsubmit="return formValidation()">
+    <table>
+      <tr>
+        <td><label for="fname">Patient Name</label><br>
+            <input type="text" id="fname" name="fname"></td></tr><br><br>
+      </tr>
+       
+        <tr>
+            <td><label for="phn">Patient Contact No.</label><br>
+            <input type="text" id="phn" name="phn"></td></tr>
+    
+    
+        <tr><td><label for="email">Patient Email</label><br>
+       <input type="email" id="email" name="email"></td></tr>
+          
+        <tr><td><p>Patient Gender:</p>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Male</label>
+                   <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">Female</label></td> </tr>
+<tr>
+    <td><label for="address">Patient Address</label><br>
+          <input type="text" id="address" name="address"></td></tr> 
+      <tr><td>
+        <label for="age">Patient Age</label><br>
+            <input type="number" id="age" name="age">
+      </td></tr>
+      <tr><td>
+        <label for="hist">Medical History</label><br>
+        <input type="text" id="hist" name="hist">
+      </td></tr>
+      <td colspan="2"><input type="submit" class="submit" value="Add" /></td>
+    </table>
+  </form>
+       
+    </div>
+</div>
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
