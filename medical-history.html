@@ -24,7 +24,7 @@
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>    
 </div>
 <div class="right-links">
-   <a class="hms">Hospital Management System</a>
+   <a class="hms">Telemedicine Services</a>
 
 <a class="links" href="patient.php">Back</a>
 </div>

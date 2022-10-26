@@ -23,6 +23,8 @@
                 <li><a href="services.html">OUR SERVICES</a></li>
                 <li><a href="map2.html">NEAREST HOSPITAL</a></li>
                 <li><a href="contact.html">CONTACT US</a></li>
+                <li><a href="./talk.html">CONSULT DOCTOR</a></li>
+
             </ul>
     </div>
     <div class="container">
@@ -83,20 +85,20 @@
         <div class="nearestDoc">
             <!-- <a href="https://www.flaticon.com/free-icons/ambulance" title="ambulance icons"></a> -->
             <img src="images/doctor.png" alt="">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <h3>Doctor</h3>
+            <h3><a href="doctor-portal/doctor.html">Click Here</a></h3>
         </div>
         <div class="cart">
             <!-- <a href="https://www.flaticon.com/free-icons/ambulance" title="ambulance icons"></a> -->
             <img src="images/trolley.png" alt="">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <h3>Product</h3>
+            <h3><a href="./products.html">Click Here</a> </h3>
         </div>
         <div class="telemed">
             <!-- <a href="https://www.flaticon.com/free-icons/ambulance" title="ambulance icons"></a> -->
             <img src="images/hospital.png" alt="">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <h3>Nearby Hospitals</h3>
+            <h3><a href="./map2.html">Click Here</a> </h3>
         </div>
     </div>
 </div>

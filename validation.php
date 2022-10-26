@@ -14,7 +14,13 @@ if ($num = mysqli_num_rows($result)) {
     $_SESSION['uname'] = $name;
     $_SESSION['email'] = $email;
     // header('location:dashboard.php');
-    header('location:patient.php');
+    $name = substr($_POST['email'], 0, 6);
+    if ($name == 'doctor') {
+        header('location:./doctor-portal/doctor.html');
+    } else {
+        // echo "<script>alert('$name');</script>";
+        header('location:patient.php');
+    }
 }
 // $num = mysqli_num_rows($result);
 // if ($num == 1) {
@@ -22,7 +28,7 @@ if ($num = mysqli_num_rows($result)) {
 //     header('location:home.php');
 // }
 else {
-    echo '<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    echo '<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></sodium_crypto_sign_ed25519_pk_to_curve25519>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script type="text/javascript">
     

@@ -27,7 +27,7 @@ session_start(); ?>
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>    
 </div>
 <div class="right-links">
-   <a class="hms">Hospital Management System</a>
+   <a class="hms">Telemedicine services</a>
 
 <a class="links" href="patient.php">Back</a>
 </div>
@@ -75,25 +75,6 @@ session_start(); ?>
  }
  ?>
 </table>
-<!-- <div class="app-hist" id="app-hist">
-    <div class="content">
-      <p>User | Appointment History</p>
-      <table>
-        <tr>
-          <th>#</th>
-          <th>Doctor Name</th>
-          <th>Specialization</th>
-          <th>Consultancy fee</th>
-          <th>Appointment Date / Time</th>
-          <th>Appointment Creation Date</th>
-          <th>Current Status</th>
-          <th>Action</th>
-        </tr>
-        
-      </table>
-    </div>
-    
-</div> -->
 
 
 <script src="index_patient.js"></script>
